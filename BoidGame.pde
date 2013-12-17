@@ -86,12 +86,12 @@ void setTimers() {
   timer2 = new Timer();
   timer3 = new Timer();
 
-  timer1.schedule(task1, 100000, 10000);
+  timer1.schedule(task1, 25000, 10000);
 
-  timer2.schedule(task2, 0, 20000);
-  timer2.schedule(task3, 300000);
+  timer2.schedule(task2, 0, 5000);
+  timer2.schedule(task3, 75000);
 
-  timer3.schedule(task4, 200000, 30000);
+  timer3.schedule(task4, 80000, 30000);
 }
 
 void draw () {

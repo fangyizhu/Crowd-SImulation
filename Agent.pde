@@ -70,7 +70,7 @@ class Agent {
     PVector acceleration;
     acceleration = new PVector(0, 0);
 
-    if (cohesionCount > 0 && species != 1) {
+    if (cohesionCount > 0) {
       cohesionSum.div(cohesionCount);
       PVector desired = PVector.sub(position, cohesionSum);
       desired.mult(cohesion);
